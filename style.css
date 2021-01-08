@@ -1,0 +1,100 @@
+* {margin: 0; padding:0; box-sizing: border-box;}
+
+
+html{
+    font-size: 62.5%;
+}
+header,body, html{
+    height: 100%;
+    margin: 0;
+
+}
+.menu_header{
+    background-image: linear-gradient(315deg, #9dc5c3 0%, #5e5c5c 74%); 
+    width: 100%;
+    height:15vh;
+    /* border: 1px solid purple; */
+    background-color:gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+} 
+.logo_header{
+    /* border: 1px solid red;
+    background-color: black; */
+    width: 10vw;
+    
+}   
+.logo_header img{
+    
+    /* border: 1px solid red; */
+    /* width: 213px; */
+    height: 150px; 
+    margin-left: -90px;
+    margin-top: 7px;
+}
+.list_header{
+    /* border: 1px solid red; */
+    
+}
+.list_header ul li{
+    list-style-type: none; 
+    padding: 0 20px; 
+    display: inline;
+}
+.list_header ul li a{
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: white;
+}
+.list_header ul li a:hover{
+    background-color:gray;
+    color: black;
+    border-bottom: 1px solid red;
+}
+
+h1{
+    width: 60%;
+    font-size: 5rem;
+    background: -webkit-linear-gradient(#eee, rgba(196, 191, 191, 0.9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: -90px;
+    border-bottom: 1px solid gray;
+    
+}
+.main_image{
+      /* The image used */
+  background-image: linear-gradient( rgba(0, 0, 0,.5), rgba(0, 0, 0,.1 )), url("logo/1_fullHD.jpg");
+
+  /* Full height */
+  height: 80%; 
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 3%;
+  margin-top: 1px;
+
+}
+
+ 
+
+
+
+@media (max-width:610px){
+    html{
+        font-size: 30%;
+        background-color:red;
+    }
+   
+}
